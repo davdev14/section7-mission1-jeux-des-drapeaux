@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  background-color: #bebebe;
+  margin: 10px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 150px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  padding: 1rem 2rem;
+  color: #bebebe;
+}
+header p {
+  font-style: italic;
+}
+.flag-container {
+  border-radius: 150px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+}
+img {
+  height: 100px;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+form input {
+  height: 2.5rem;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 150px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  border: 1px solid #bebebe;
+  outline: none;
+}
+i {
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+i:hover {
+  transform: scale(1.1);
+}
+.message-container {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  border: none;
+  height: 50px;
+  width: 200px;
+}
+.message-container p {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.skip {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+}
+#possibilities {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+#possibilities li {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  cursor: pointer;
+}
+#possibilities li:hover {
+  transform: scale(1.1);
+}
